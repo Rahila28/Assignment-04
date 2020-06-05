@@ -1,0 +1,427 @@
+.navbar{
+    background-color: red !important;
+}
+
+
+
+
+
+.fa-cart-plus{
+    font-size: 32px !important;
+}
+
+
+
+
+
+
+
+
+.fa-user-circle-o{
+    font-size: 32px !important;
+}
+
+
+
+
+
+
+
+
+
+
+.fa-truck ,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: red;
+}
+
+
+
+
+
+
+h3{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+.NewArrivals{
+    margin-top: 50px;
+}
+
+
+
+.card
+{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 5px;
+    size: auto;
+}
+
+
+
+.card-text{
+    font-weight: bold;
+}
+
+
+
+
+.btn-primary{
+    width: 100%;
+    background-color: red;
+}
+
+
+
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    margin: 20px;
+    font-size: 44px !important;
+}
+
+
+
+
+.heading >h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    background-color: red;
+    height: 70px;
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+
+
+.fa-copyright{
+    text-align: center !important;
+    text-justify: center;
+    justify-content: center !important;
+
+}
+
+
+
+
+
+.navbar{
+    position: sticky !important;
+    top: 0px;
+z-index: 1;    
+}
+
+.carousel-inner{
+   
+    z-index: -1 !important;
+}
+
+.footer> div{
+    text-align: center !important;
+    align-items: center;
+}
+
+
+
+
+
+.h4{
+    color: #fff;
+}
+
+
+
+.f1{
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center !important;
+}
+
+
+.form-control{
+    width: 400px;
+} 
+.btn{
+    width: 80px;
+    text-align: center !important;
+    font-size: 11px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3,{
+        width: 100%;}
+
+.form-control{
+    width: 250px;
+} 
+
+    }
+
+
+
+    /* @media screen and (max-width: 600px){
+        width: 100%;
+    } */
+
+
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)*/
+        z-index: 1;  
+       }
+
+
+
+
+
+::placeholder {
+  color: red !important;
+}
+}
+
+
+
+
+
+
+
+.r1{
+    display: flex !important;
+    justify-content: row !important;
+   
+} 
+
+
+
+
+.w3-jumbo{
+    font-size: 36px;
+}
+
+
+
+.tu{
+    text-align: center !important;
+    justify-content: center !important;
+    margin-top: 200px !important;
+}
+
+.ct{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+.about{
+    background-image: url("images/backgrnd.jpg") !important;
+            background-repeat: no-repeat;
+            background-attachment: stretch;
+            background-size: cover;
+
+            opacity: 2.5;
+
+}
+
+
+
+
+
+
+.ht{
+    height: 250px !important;
+}
+
+
+
+
+.at{
+    height: 300px;
+}
+
+
+
+form{
+    background-image: ;
+    }
+
+
+
+    div{
+        text-align: center;
+    }
+
+
+
+
+
+    .page2{
+        text-align: center;
+    }
+
+
+
+
+
+    .lable{
+        display: inline-block ;
+        width: 300px;
+        margin-left: 25px;
+    }
+
+
+
+
+
+    input[type=text]
+    {
+        text-align: center;
+    }
+
+
+
+    input[type=number]
+    {
+        text-align: center;
+    }
+
+
+
+
+    #head{
+        color: royalblue;
+    }
+
+
+
+
+    .Thankyou{
+    
+            background-image: url("Back ground img/back\ ground\ imag.jpg") !important;
+            background-repeat: no-repeat;
+            background-attachment: stretch;
+            background-size: cover;
+
+            opacity: 2.5;
+    } 
+    
+
+
+
+
+
+
+
+
+    .contact{
+ 
+        margin: 0px;
+        padding: 35px;
+         height: 200px;
+         margin-bottom: 0px;
+        background-color: black;
+    }
+    .contact-info{
+        margin-bottom: 0px;
+     
+        float: left;
+    padding: 15px;
+    color: lightgray;
+        width: 35%;
+    font-size: 18px;
+    
+    
+    }
+    .contact-info span{
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+    .useful{
+        margin-bottom: 0px;
+     
+        padding-left: 25px;
+        width: 25%;
+        float: left;
+    }
+    
+    .useful h3{
+        color: white;
+    }
+    .useful hr{
+        float: left;
+    }
+    .green1{
+        background-color: turquoise;
+        height: 4px;
+    }
+    .grey{
+        background-color: lightgray;
+    }
+    .contact-us{
+        margin-bottom: 0px;
+     
+        height: 200px;
+        width: 30%;
+        padding: 10px;
+        float: right;
+        color: white;
+        
+    }
+    .icon-setting{
+        margin-left:30px ;
+    }
+    .icon-setting i{
+        padding-right: 10px;
+    }
+    
